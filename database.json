@@ -1,0 +1,51 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Làm bài tập Javascript",
+      "status": true
+    },
+    {
+      "id": 2,
+      "title": "Đá bóng",
+      "status": false
+    },
+    {
+      "id": 3,
+      "title": "Nấu cơm",
+      "status": true
+    },
+    {
+      "id": 5,
+      "title": "Cong viec moi 5-update",
+      "status": true
+    },
+    {
+      "id": 19562,
+      "title": "Cong viec 6",
+      "status": false
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "email": "a@gmail.com",
+      "age": 24
+    },
+    {
+      "id": 2,
+      "name": "Tran Van B",
+      "email": "b@gmail.com",
+      "age": 30
+    },
+    {
+      "id": 3,
+      "name": "Bui Van C",
+      "email": "a@gmail.com",
+      "age": 27
+    }
+  ],
+  "posts": [],
+  "categorys": []
+}

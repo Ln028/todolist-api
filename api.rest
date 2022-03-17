@@ -1,0 +1,52 @@
+GET http://localhost:3000/todos HTTP/1.1
+
+###
+GET http://localhost:3000/todos/2  HTTP/1.1
+
+###
+//Tao todos moi
+
+POST http://localhost:3000/todos  HTTP/1.1
+Content-Type: application/json
+
+{
+    "id" : 5,
+    "title" : "Cong viec moi 5",
+    "status": false
+}
+
+###
+
+//Sua todos:
+
+PUT http://localhost:3000/todos/5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id" : 5,
+    "title" : "Cong viec moi 5-update",
+    "status": true
+}
+
+###
+
+//Xoa todos:
+
+DELETE http://localhost:3000/todos/4 HTTP/1.1
+
+###
+//Loc:
+
+GET http://localhost:3000/todos?status=true HTTP/1.1
+
+
+###
+//search:
+GET http://localhost:3000/todos?q=viec HTTP/1.1
+
+### 
+//Lay users:
+GET http://localhost:3000/users HTTP/1.1
+
+###
+GET http://localhost:3000/users?_sort=age HTTP/1.1
